@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   <button class="button" onclick=" cartQuantity++; 
+document.querySelector('#cart-summary').
+innerText=`your bag to  ${cartQuantity}  sale`; ">Add to Bag </button>
+
+    <button class="button1" onclick=" cartQuantity--; 
+document.querySelector('#cart-summary').
+innerText=`your bag to  ${cartQuantity}  sale`;"> MOVIE TO WISLIST </button>
+
+
+    <button class="button" onclick=" cartQuantity+=2; 
+document.querySelector('#cart-summary').
+innerText=`your bag to  ${cartQuantity}  sale`;">Add 1+1 aitem </button>
+   
+   <h1 id="cart-summary"><h1/>
+    
+   
+    <script src="script.js"></script>
+</body>
+</html>
